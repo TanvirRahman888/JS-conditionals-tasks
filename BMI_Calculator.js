@@ -11,17 +11,17 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 
 var height =1.778;
 var weight =100;
-var BIM=(weight/(height*height)).toFixed(2);
-console.log(BIM)
-if (BIM<18.5) {
-    console.log("You BIM : "+BIM+". You are underweight");
+var BMI=(weight/(height*height)).toFixed(2);
+console.log(BMI)
+if (BMI<18.5) {
+    console.log("You BMI : "+BMI+". You are underweight");
 } 
-else if(BIM>=18.5 && BIM <=24.9){
-    console.log("You BIM : "+BIM+". You are Normal");
+else if(BMI>=18.5 && BMI <=24.9){
+    console.log("You BMI : "+BMI+". You are Normal");
 }
-else if(BIM>=25 && BIM <=29.9){
-    console.log("You BIM : "+BIM+". You are overweight");
+else if(BMI>=25 && BMI <=29.9){
+    console.log("You BMI : "+BMI+". You are overweight");
 }
 else {
-    console.log("You BIM : "+BIM+". You are obese");
+    console.log("You BMI : "+BMI+". You are obese");
 }
